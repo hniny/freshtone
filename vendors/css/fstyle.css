@@ -1,0 +1,297 @@
+
+:root {
+  --main-bg-color: white;
+  --navlink-color: #D5F3FE;  
+  --text-color: #0d497b;
+  --title-color: #0d497b;
+}
+.icon-bgcolor{
+  background-color: #2e60a5;
+  border-radius: 50%;
+}
+.head-color{
+  color: #0d497b;
+}
+.nav-background{
+  background-color: var(--navlink-color);
+}
+.text{
+  color: var(--text-color);
+}
+.nav-bgcolor{
+  background-color: var(--navlink-color);
+}
+.title-color{
+  color: #969696;
+  font-weight: 700;
+  line-height: 0.1rem;
+  padding-top: 0.7rem;
+}
+.link-bg-color{
+  /* background-color: #14314F; */
+  background-image: linear-gradient(180deg,#14314F, #2B9BDB);
+}
+.newcollection-color{
+  /* background-color: #2E91D4; */
+  background: #000046; 
+  background: -webkit-linear-gradient(to right,  #000046, #1CB5E0);
+  background: linear-gradient(to right, #000046,#1CB5E0 );
+}
+.safety-bg-color{
+  margin-top: 11px;
+  background-color:#E9F7F8;
+ 
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--main-bg-color);
+  color: var(--text-color);
+
+}
+
+
+
+
+.left-icon,.right-icon {
+  width:10px;
+  color: gray;
+  z-index: 3;
+  background-color: white !important;
+  padding: 22px  32px 22px 22px;
+  border-radius: 50%;
+  position: absolute;
+  left:-30px;
+ 
+}
+.right-icon{
+  position: absolute;
+  left:116px;
+}
+
+.left-link-icon,.right-link-icon {
+  width:10px;
+  color: white;
+  z-index: 3;
+  background-color: gray !important;
+  padding: 22px  32px 22px 22px;
+  border-radius: 50%;
+  position: absolute;
+  left:-30px;
+  bottom: 280px;
+ 
+}
+.right-link-icon{
+  position: absolute;
+  left:130px;
+}
+.slider-image{
+  width: 230px;
+   height: 210px;
+}
+.slider-address{
+  width: 230px ;
+  height: 100px ;
+}
+.carousel-item .carousel-caption{
+  bottom: 140px;
+  left:180px;
+  text-align: left;
+}
+
+.title{
+       color: #0d497b;
+      font-size: 13px;
+      text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 2px;  
+}
+.item1{
+  background-image: url('/vendors/images/banner/item01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.item2{
+  background-image: url('/vendors/images/banner/item02.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.item3{
+  background-image: url('/vendors/images/banner/item03.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.main-title{
+  font-weight: 500;
+  font-size: 50px;
+}
+.sub{
+  color: #fff;  
+  text-transform: uppercase;
+  font-weight: 50;
+ 
+}
+.slider-button a{
+  padding: 7px 9px;
+  font-size: 15px; 
+  background:#25C5FD;
+  color: #fff;
+  width: 20px;
+  border-radius: 20px;
+}
+.slider-card img{
+  width: 100%;
+  height:240px;
+}
+
+.circle{
+  position:absolute; 
+  border-radius: 50%;
+  padding: 8px 16px;
+  background-color:black;
+  left: 187px;
+top: 219px;
+
+}
+
+.collapse-link  .navbar-nav .sub-item:hover ,.sub-item:hover{
+ 
+  border-bottom: 3px solid blue;
+
+
+}
+
+.bg-danger{
+  position: absolute;
+  top: 0px;
+  left:236px;
+}
+
+.one
+{
+  position: absolute;
+  
+  z-index: 1;
+  height:455px;
+ 
+}
+.two
+{
+  position:absolute;
+  top: 266px;  
+  left: 60%;
+  z-index: 2;
+  width: 40%;
+  height: 200px;
+}
+.phone-button>.phone-logo{
+  width: 10px;
+  height: 0px;
+}
+.cart-logo{
+  width: 5px;height: 3px; margin-right: 10px;color:white;
+}
+.caption-icon{
+  padding-top: 2rem;
+}
+
+/* CSS used here will be applied after bootstrap.css */
+.ekko-lightbox-nav-overlay a {
+  color: goldenrod;
+}
+.gallery-title {
+  text-align: center;
+font-weight: 500;
+border-bottom: 1px dotted orange;
+margin-top: 1em;
+}
+.modal-content {
+  width: 700px;
+  height: 570px;
+  margin-left: -9rem;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #0d497b;
+  background-color: white;
+  border-bottom: 2px solid #0d497b;
+}
+.nav-pills .nav-link:hover{
+  color: #0d497b;
+  background-color: white;
+  border-bottom: 2px solid #0d497b;
+}
+.text-color{
+  color: #0d497b;
+}
+.col-height{
+  height: 28rem;
+}
+
+@media only screen and (max-device-width: 480px) {
+
+
+  .logo {
+    align-items: left !important;
+    justify-content: left  !important;
+   
+  }
+  .item-video{
+    width: 200px;
+  }
+  .collection{
+    width: 112%;
+    
+  }
+  .card{
+    margin-bottom: 10px;
+  }
+  .image-logo{
+    width: 100px;
+  }
+  .header-width{
+    width: 32%;
+  }
+ .phone-button{
+   
+    border-radius: 50%;
+    padding: 0px 6px;
+    
+  }
+  .cart-button{
+   
+    border-radius: 50%;
+    padding: 0px 4px;
+   
+    
+  }
+  .cart-logo{
+    margin-left: -3px;
+  }
+  
+ 
+  .text{
+    font-size: 5px;
+  }
+  .two
+  {
+    position:absolute;
+    top: 266px;  
+    left: 60%;
+    z-index: 2;
+    width: 40%;
+    height: 200px;
+  }
+  .cart-count{
+    border-radius: 20px;
+    left: 56px;;
+    font-size: 10px;
+  }
+  
+  
+}
+
